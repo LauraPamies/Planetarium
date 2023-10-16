@@ -1,23 +1,23 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.9f1 (ea401c316338) revision 15351836'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'es' Physical Memory: 16023 MB
+OS: 'Windows 10  (10.0.19045) 64bit Enterprise' Language: 'es' Physical Memory: 32728 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2022.3.9f1\Editor\Unity.exe
+D:\editor\2022.3.9f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/Álvaro Escribano/Desktop/PROYECTO DE VR/Planetarium/Planetarium
+E:/planetarium/Planetarium/Planetarium
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55133
-Successfully changed project path to: C:/Users/Álvaro Escribano/Desktop/PROYECTO DE VR/Planetarium/Planetarium
-C:/Users/Álvaro Escribano/Desktop/PROYECTO DE VR/Planetarium/Planetarium
+55207
+Successfully changed project path to: E:/planetarium/Planetarium/Planetarium
+E:/planetarium/Planetarium/Planetarium
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,65 +49,67 @@ C:/Users/Álvaro Escribano/Desktop/PROYECTO DE VR/Planetarium/Planetarium
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [23844] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2019413184 [EditorId] 2019413184 [Version] 1048832 [Id] WindowsEditor(7,Hp-Alvaro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [32196] Host "[IP] 192.168.0.109 [Port] 0 [Flags] 2 [Guid] 1575283936 [EditorId] 1575283936 [Version] 1048832 [Id] WindowsEditor(7,vinillo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [23844] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2019413184 [EditorId] 2019413184 [Version] 1048832 [Id] WindowsEditor(7,Hp-Alvaro) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [32196] Host "[IP] 192.168.0.109 [Port] 0 [Flags] 2 [Guid] 1575283936 [EditorId] 1575283936 [Version] 1048832 [Id] WindowsEditor(7,vinillo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 7 workers.
-Refreshing native plugins compatible for Editor in 7.69 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 5 workers.
+Refreshing native plugins compatible for Editor in 6.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.9f1 (ea401c316338)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Álvaro Escribano/Desktop/PROYECTO DE VR/Planetarium/Planetarium/Assets
+[Subsystems] Discovering subsystems at path D:/editor/2022.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/planetarium/Planetarium/Planetarium/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
-    Vendor:   Intel
-    VRAM:     8011 MB
-    Driver:   31.0.101.4824
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3734
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56204
+Mono path[0] = 'D:/editor/2022.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'D:/editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/editor/2022.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56800
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005191 seconds.
-- Loaded All Assemblies, in  0.379 seconds
+Register platform support module: D:/editor/2022.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/editor/2022.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006059 seconds.
+- Loaded All Assemblies, in  0.380 seconds
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.310 seconds
-Domain Reload Profiling: 688ms
-	BeginReloadAssembly (113ms)
+- Finished resetting the current domain, in  0.268 seconds
+Domain Reload Profiling: 648ms
+	BeginReloadAssembly (118ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (61ms)
-	LoadAllAssembliesAndSetupDomain (157ms)
-		LoadAssemblies (111ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (152ms)
+		LoadAssemblies (117ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (154ms)
-				TypeCache.ScanAssembly (137ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (311ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (149ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (268ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (247ms)
+		SetupLoadedEditorAssemblies (206ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (166ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (139ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,121 +117,59 @@ Domain Reload Profiling: 688ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.657 seconds
-Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.620 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.632 seconds
-Domain Reload Profiling: 1288ms
-	BeginReloadAssembly (163ms)
+- Finished resetting the current domain, in  0.550 seconds
+Domain Reload Profiling: 1170ms
+	BeginReloadAssembly (152ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (24ms)
-	RebuildCommonClasses (41ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (43ms)
-	LoadAllAssembliesAndSetupDomain (397ms)
-		LoadAssemblies (285ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (381ms)
+		LoadAssemblies (274ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (205ms)
-			TypeCache.Refresh (184ms)
-				TypeCache.ScanAssembly (169ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (158ms)
 			ScanForSourceGeneratedMonoScriptInfo (14ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (633ms)
+	FinalizeReload (550ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (460ms)
+		SetupLoadedEditorAssemblies (399ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (358ms)
-			ProcessInitializeOnLoadMethodAttributes (21ms)
-			AfterProcessingInitializeOnLoad (5ms)
+			BeforeProcessingInitializeOnLoad (52ms)
+			ProcessInitializeOnLoadAttributes (315ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.28 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3069 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3531.
-Memory consumption went from 114.1 MB to 114.1 MB.
-Total: 3.015300 ms (FindLiveObjects: 0.296600 ms CreateObjectMapping: 0.113300 ms MarkObjects: 2.500100 ms  DeleteObjects: 0.104100 ms)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3531.
+Memory consumption went from 114.4 MB to 114.3 MB.
+Total: 11.255800 ms (FindLiveObjects: 6.608000 ms CreateObjectMapping: 0.603800 ms MarkObjects: 3.927800 ms  DeleteObjects: 0.114900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 177063.499123 seconds.
-  path: Assets/Prefabs/Materiales/EEI/Nave/Nave (resto).mat
-  artifactKey: Guid(be54dd8bc1f3c9a4e93a219f86c23fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/EEI/Nave/Nave (resto).mat using Guid(be54dd8bc1f3c9a4e93a219f86c23fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbe69cdb8ffd10ec7004e8400666ced') in 0.184635 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Prefabs/Materiales/EEI/Nave/EEI_final_Nave_BaseColor.png
-  artifactKey: Guid(124079c21bf69c64a830c70663a953fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/EEI/Nave/EEI_final_Nave_BaseColor.png using Guid(124079c21bf69c64a830c70663a953fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf01343e5a8c6d4764edbc256a14843') in 0.035825 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Prefabs/Materiales/EEI/Nave
-  artifactKey: Guid(56b0aecc448b1a74aa4eaedf799c429e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/EEI/Nave using Guid(56b0aecc448b1a74aa4eaedf799c429e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9bc8242e649db78cfb91a9e2f6ed2c4') in 0.000709 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000090 seconds.
-  path: Assets/Prefabs/Materiales/EEI/Nave/EEI_final_Nave_Height.png
-  artifactKey: Guid(0cd8b9da2d2417049a7316e44f5f7e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/EEI/Nave/EEI_final_Nave_Height.png using Guid(0cd8b9da2d2417049a7316e44f5f7e24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1181b8c74e12b586faea01fd7df4d90') in 0.021902 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 1.045414 seconds.
-  path: Assets/Prefabs/Materiales/Asteroides/ast3_lambert5_BaseColor.png
-  artifactKey: Guid(c030865f3e1d125439f3333ea8e55d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Asteroides/ast3_lambert5_BaseColor.png using Guid(c030865f3e1d125439f3333ea8e55d68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ac584b85a04c185e3a2c0f25be2122') in 0.024253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3574.
-Memory consumption went from 70.3 MB to 70.3 MB.
-Total: 4.003300 ms (FindLiveObjects: 0.388500 ms CreateObjectMapping: 0.166300 ms MarkObjects: 3.409100 ms  DeleteObjects: 0.037700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
@@ -243,337 +183,177 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 108.880748 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_cuerpo_Emissive.png
-  artifactKey: Guid(e7b1f58faf1e5964c8934479aaa0c279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_cuerpo_Emissive.png using Guid(e7b1f58faf1e5964c8934479aaa0c279) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e072856ed82c726131c6c366418b22') in 0.033073 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_cuerpo_Height.png
-  artifactKey: Guid(1b252299e69ce7e4fa8b76555bd144ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_cuerpo_Height.png using Guid(1b252299e69ce7e4fa8b76555bd144ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9df687553b105c2c91eb4fa1211033f1') in 0.020993 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_Plato_Height.png
-  artifactKey: Guid(a738e1b032ecc62448eba44c10b06b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_Plato_Height.png using Guid(a738e1b032ecc62448eba44c10b06b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91dbb6e83cbfe4fb28a26a08a05b76ae') in 0.016563 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_palo_Metallic.png
-  artifactKey: Guid(0d6407f861b7eae4ba40e90c4544da22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_palo_Metallic.png using Guid(0d6407f861b7eae4ba40e90c4544da22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '848ec94dbcd804e2dab6a8d600ddb8b4') in 0.018082 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_palo_Height.png
-  artifactKey: Guid(9ec9dae36601dbf4b8cc0c3aafb10764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_palo_Height.png using Guid(9ec9dae36601dbf4b8cc0c3aafb10764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '625ff95a303a46742f3007fdd778046a') in 0.020446 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_palo_Roughness.png
-  artifactKey: Guid(edd36839fe042da47b9855723b6083a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_palo_Roughness.png using Guid(edd36839fe042da47b9855723b6083a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1188452c89a39c101c9a2333ccf4eded') in 0.024469 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_Plato_Metallic.png
-  artifactKey: Guid(4c582310cfe6f0544b475317385322dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_Plato_Metallic.png using Guid(4c582310cfe6f0544b475317385322dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7719ddf64043d7adf28bb617044bd2a') in 0.018765 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_Plato_Normal.png
-  artifactKey: Guid(9a21097d8a48a524d939c3fa6d9266de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_Plato_Normal.png using Guid(9a21097d8a48a524d939c3fa6d9266de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7b00812076b22b9ba1d20bb4cc35ac') in 0.027705 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_cuerpo_Normal.png
-  artifactKey: Guid(97ece98f579b89244b1925518802658c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_cuerpo_Normal.png using Guid(97ece98f579b89244b1925518802658c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99d869e31b43ae78dadae65f4dc450da') in 0.025386 seconds
+  Time since last request: 363290.449305 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/Planeta4/bbbbb_Material 6_Emissive.png
+  artifactKey: Guid(32cd9043ce4344a4ca2b6bcf732ba684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/Planeta4/bbbbb_Material 6_Emissive.png using Guid(32cd9043ce4344a4ca2b6bcf732ba684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6538e80f681f7edb15bb37acf2affe') in 0.110722 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000033 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_palitos_Metallic.png
-  artifactKey: Guid(736f7e93986c55a48be4e616bfe7598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_palitos_Metallic.png using Guid(736f7e93986c55a48be4e616bfe7598a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f346fb718b533bb5f534c503f731893') in 0.011320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_palitos_BaseColor.png
-  artifactKey: Guid(d586acf9a0266384d985e684b2f84b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_palitos_BaseColor.png using Guid(d586acf9a0266384d985e684b2f84b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d81b201fe5d1ce97aa6031fb5e3998b') in 0.023525 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_palo_Normal.png
-  artifactKey: Guid(afa32e1e2f94ca54ea66382bdd46b57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_palo_Normal.png using Guid(afa32e1e2f94ca54ea66382bdd46b57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d92a87c88a9c18d73d4b00ef5f89157') in 0.022697 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_cuerpo_Metallic.png
-  artifactKey: Guid(2db66c6c4354dcb43aa03f06d36e68ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_cuerpo_Metallic.png using Guid(2db66c6c4354dcb43aa03f06d36e68ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ea79b6f44d265c9d54a92a83dbf2ed') in 0.021677 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_placas_Emissive.png
-  artifactKey: Guid(97eb8ddf36f99c34bba319f57928e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_placas_Emissive.png using Guid(97eb8ddf36f99c34bba319f57928e6a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20aa1f34122e2e89f0b71f16a00eb55d') in 0.009653 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/Materiales/Satelite_escri/satelite2_placas_Roughness.png
-  artifactKey: Guid(7f65084bcd12d1e4cb980b0ab7c51911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite_escri/satelite2_placas_Roughness.png using Guid(7f65084bcd12d1e4cb980b0ab7c51911) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35c12ec848a21e302e8b143ac6ebf8c0') in 0.017322 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 283.425637 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_cuerpo_Emissive.png
-  artifactKey: Guid(2e1371f5386079346855ddd1c375142e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_cuerpo_Emissive.png using Guid(2e1371f5386079346855ddd1c375142e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89722e8a93666498f8e922a99e13e46') in 0.044424 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000753 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_cuerpo_Roughness.png
-  artifactKey: Guid(cdf4c74f5afacd3469c92bc11d5825b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_cuerpo_Roughness.png using Guid(cdf4c74f5afacd3469c92bc11d5825b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114156f90259a8d31d61b3d863394156') in 0.020882 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_palo_Normal.png
-  artifactKey: Guid(470715ba00538f0459d76e5f2adf0c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_palo_Normal.png using Guid(470715ba00538f0459d76e5f2adf0c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb393942f98fe2e57467e23004abf67') in 0.036373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_Plato_Normal.png
-  artifactKey: Guid(53768f3c6358e904997750042693abb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_Plato_Normal.png using Guid(53768f3c6358e904997750042693abb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0382a9bb89848a12f853e01ead7841bb') in 0.017150 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_Plato_BaseColor.png
-  artifactKey: Guid(e905e932fdd481646a6aefd27e14a44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_Plato_BaseColor.png using Guid(e905e932fdd481646a6aefd27e14a44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124c4c9d38cf457b27bff2a344b8b80e') in 0.020053 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_placas_Height.png
-  artifactKey: Guid(7fd6dbaa6afff184ba347773b5b8a89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_placas_Height.png using Guid(7fd6dbaa6afff184ba347773b5b8a89d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30fd0cbeec1ba1f4a23185519f3806df') in 0.021573 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_Plato_Metallic.png
-  artifactKey: Guid(76ea6b608e4daaf4fa2c090a4890d69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_Plato_Metallic.png using Guid(76ea6b608e4daaf4fa2c090a4890d69c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1610424f13af50abf741a16df302ea7') in 0.018323 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_palo_Metallic.png
-  artifactKey: Guid(12080579c92263c4db81bd835cb50f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_palo_Metallic.png using Guid(12080579c92263c4db81bd835cb50f7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0f7f29d0e374197525e2b80808590c') in 0.018072 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_palitos_Height.png
-  artifactKey: Guid(a6b54c04aa686724e9e67fed42e56fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_palitos_Height.png using Guid(a6b54c04aa686724e9e67fed42e56fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6409b98c9d52c609fbec75adb8f5c12') in 0.017145 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_palitos_Roughness.png
-  artifactKey: Guid(36d91630ca8764748827ab9c03585d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_palitos_Roughness.png using Guid(36d91630ca8764748827ab9c03585d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f7110d37434aaa8cdcac8f6c2a0513d') in 0.020836 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_placas_BaseColor.png
-  artifactKey: Guid(fb7a90aa82148db4491ffe5ce099f894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_placas_BaseColor.png using Guid(fb7a90aa82148db4491ffe5ce099f894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9aa2aed3cde907ed0f3c5517593d329') in 0.031945 seconds
+  path: Assets/Prefabs/Materiales/Materiales Planetas/Planeta4/bbbbb_Material _5_Normal.png
+  artifactKey: Guid(fb1a9df9a14c5e947b7e4e6888d6faf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/Planeta4/bbbbb_Material _5_Normal.png using Guid(fb1a9df9a14c5e947b7e4e6888d6faf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffaf52b969f995584babe99a11a36533') in 0.020149 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_palo_Emissive.png
-  artifactKey: Guid(3c41cac76419a0f4aa0aef5107cf3c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_palo_Emissive.png using Guid(3c41cac76419a0f4aa0aef5107cf3c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805f8b237ffcee7d92cb0d1cd8ee6e72') in 0.018794 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_palitos_Normal.png
-  artifactKey: Guid(186b393b0d1398e46a67ce2c34e16149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_palitos_Normal.png using Guid(186b393b0d1398e46a67ce2c34e16149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fc4642a1019c39de012d57da22433f') in 0.017363 seconds
+  path: Assets/Prefabs/Materiales/Materiales Planetas/Planeta4/bbbbb_Material _5_Height.png
+  artifactKey: Guid(2fb05c2d9ebe21147ba5a2b2889d484d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/Planeta4/bbbbb_Material _5_Height.png using Guid(2fb05c2d9ebe21147ba5a2b2889d484d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb2db7beb1e476ffb4c536c4a7942965') in 0.017660 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000021 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_palitos_Metallic.png
-  artifactKey: Guid(19df917fd2c400d4699f6c563b8c10cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_palitos_Metallic.png using Guid(19df917fd2c400d4699f6c563b8c10cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3740545534f3cb93ce0289bf40e571') in 0.021451 seconds
+  path: Assets/Prefabs/Materiales/Materiales Planetas/Planeta4/bbbbb_Material 6_Height.png
+  artifactKey: Guid(8328f61b25279394d8db330a0e640758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/Planeta4/bbbbb_Material 6_Height.png using Guid(8328f61b25279394d8db330a0e640758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21bca883190fa4aea2edf680ee6e9eb') in 0.022096 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/satelite2_palo_BaseColor.png
-  artifactKey: Guid(a8d68b7afc450f846b177867e5146e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/satelite2_palo_BaseColor.png using Guid(a8d68b7afc450f846b177867e5146e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d621b490acd42082ba59b7a939de342') in 0.033400 seconds
+  Time since last request: 0.000088 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/Planeta4/bbbbb_Material _5_Emissive.png
+  artifactKey: Guid(3bab693bfc7acbc41b520082ee349ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/Planeta4/bbbbb_Material _5_Emissive.png using Guid(3bab693bfc7acbc41b520082ee349ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d67b4405f654b86af4e300972c3431') in 0.018645 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 251.396963 seconds.
-  path: Assets/Prefabs/Materiales/EEI/Antena/EEI_final_Antenas_BaseColor.png
-  artifactKey: Guid(5d134e193a816ae48aef37b922314057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/EEI/Antena/EEI_final_Antenas_BaseColor.png using Guid(5d134e193a816ae48aef37b922314057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f049c9628668337477398ece10cc84') in 0.048897 seconds
+  Time since last request: 0.000027 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/Planeta4/bbbbb_Material _5_BaseColor.png
+  artifactKey: Guid(1f7f7442846dc1445b7bc6efbe1f0893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/Planeta4/bbbbb_Material _5_BaseColor.png using Guid(1f7f7442846dc1445b7bc6efbe1f0893) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a319f0393de1ad5b618ba12b5862910d') in 0.015676 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Prefabs/Materiales/EEI/Antena/EEI_final_Antenas_Metallic.png
-  artifactKey: Guid(f9a741ac1a999f0429a4face8f2583cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/EEI/Antena/EEI_final_Antenas_Metallic.png using Guid(f9a741ac1a999f0429a4face8f2583cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25062b7b8c515b2257caa3798011d1f7') in 0.039165 seconds
+  Time since last request: 86.842978 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta1/bbbbb_Material _0_Emissive.png
+  artifactKey: Guid(b388380ab5658ff4887a77765c7bf090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta1/bbbbb_Material _0_Emissive.png using Guid(b388380ab5658ff4887a77765c7bf090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57589d755bbb4d1e10d55469885e483a') in 0.022734 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Prefabs/Materiales/EEI/Antena/EEI_final_Antenas_Normal.png
-  artifactKey: Guid(ef31a3a28c4552f4f88b5ec9e007058a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/EEI/Antena/EEI_final_Antenas_Normal.png using Guid(ef31a3a28c4552f4f88b5ec9e007058a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69aba6c8ec2650e380fa7813848f9e16') in 0.056819 seconds
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta1/bbbbb_Material _0_Height.png
+  artifactKey: Guid(3273d30314de35a4db0a438f83ebaa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta1/bbbbb_Material _0_Height.png using Guid(3273d30314de35a4db0a438f83ebaa84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f11c823ddeb008bf1ae9c527cd9c440') in 0.018693 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 509.219649 seconds.
-  path: Assets/Prefabs/Materiales/EEI/Cabina nave/EEI_final_Cabina_nave_BaseColor.png
-  artifactKey: Guid(b32dc4bcbb7642646973f87334a76603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/EEI/Cabina nave/EEI_final_Cabina_nave_BaseColor.png using Guid(b32dc4bcbb7642646973f87334a76603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761a6d40de4166bd4c4952e6d519f35d') in 0.047402 seconds
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta1/bbbbb_Material _0_Roughness.png
+  artifactKey: Guid(ac81298e0ac1ad440b7ef283ec3c940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta1/bbbbb_Material _0_Roughness.png using Guid(ac81298e0ac1ad440b7ef283ec3c940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca54583f370c057d73fe44bba62f81f6') in 0.019150 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Prefabs/Materiales/EEI/Cabina nave/EEI_final_Cabina_nave_Metallic.png
-  artifactKey: Guid(2d5b42059c1c44b4fb123c6772d8ad33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/EEI/Cabina nave/EEI_final_Cabina_nave_Metallic.png using Guid(2d5b42059c1c44b4fb123c6772d8ad33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31360543f3d37743dd50e9fdf47cb7fd') in 0.029953 seconds
+  Time since last request: 57.149825 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta2/bbbbb_Material _0_Emissive.png
+  artifactKey: Guid(bf09e129d6c150145b322bc22cdd223c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta2/bbbbb_Material _0_Emissive.png using Guid(bf09e129d6c150145b322bc22cdd223c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ebdf4d2946f06fe5f0ade22621ad504') in 0.056793 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Prefabs/Materiales/EEI/Cabina nave/Nave_resto.mat
-  artifactKey: Guid(a23bd786819ba0a4fb2fcc5db48f465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/EEI/Cabina nave/Nave_resto.mat using Guid(a23bd786819ba0a4fb2fcc5db48f465d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb8912b3eb4b6dfaf600e360cceed4cc') in 0.038260 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Prefabs/Materiales/EEI/Cabina nave/EEI_final_Cabina_nave_Emissive.png
-  artifactKey: Guid(88f252cba632e964994833e9104a8f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/EEI/Cabina nave/EEI_final_Cabina_nave_Emissive.png using Guid(88f252cba632e964994833e9104a8f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '207efd622e8d7a36b1f44a1eea63e38a') in 0.021697 seconds
+  Time since last request: 0.000083 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta2/bbbbb_Material _0_Roughness.png
+  artifactKey: Guid(a71c897d2b863534186337e280fec7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta2/bbbbb_Material _0_Roughness.png using Guid(a71c897d2b863534186337e280fec7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea5b1a53a06125dac760d55d4489f0db') in 0.018047 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Prefabs/Materiales/EEI/Cabina nave/EEI_final_Cabina_nave_Height.png
-  artifactKey: Guid(95478b5a810bcd74187c57e9cff6579c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/EEI/Cabina nave/EEI_final_Cabina_nave_Height.png using Guid(95478b5a810bcd74187c57e9cff6579c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c286576d223af4a9025a4af71d02e689') in 0.035583 seconds
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta2/bbbbb_Material1_Emissive.png
+  artifactKey: Guid(3bfef527ea335124681d08cf42690e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta2/bbbbb_Material1_Emissive.png using Guid(3bfef527ea335124681d08cf42690e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb1801e83280735c3f196ba78b0dcc1') in 0.027755 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 567.650157 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/Palitos/satelite2_palitos_Normal.png
-  artifactKey: Guid(186b393b0d1398e46a67ce2c34e16149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/Palitos/satelite2_palitos_Normal.png using Guid(186b393b0d1398e46a67ce2c34e16149) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77233023ca2856a4d5538f36fdef835') in 0.044583 seconds
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta2/bbbbb_Material _0_Normal.png
+  artifactKey: Guid(34cefff2f7a60ef43a346e8028212cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta2/bbbbb_Material _0_Normal.png using Guid(34cefff2f7a60ef43a346e8028212cbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd54e7e62392f673daa369efa28537b6c') in 0.034095 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.183342 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/Palo/satelite2_palo_Normal.png
-  artifactKey: Guid(470715ba00538f0459d76e5f2adf0c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/Palo/satelite2_palo_Normal.png using Guid(470715ba00538f0459d76e5f2adf0c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ccf7fc6684786487e580ec4688aabe') in 0.043608 seconds
+  Time since last request: 0.000036 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta2/bbbbb_Material1_Height.png
+  artifactKey: Guid(716fa27d8b057334e8eb6396b60e4403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta2/bbbbb_Material1_Height.png using Guid(716fa27d8b057334e8eb6396b60e4403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0316f756b16cf135a12047189d973a3c') in 0.061641 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.421695 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/Placas/satelite2_placas_Normal.png
-  artifactKey: Guid(5a569e4477cb03848979babc5ce18e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/Placas/satelite2_placas_Normal.png using Guid(5a569e4477cb03848979babc5ce18e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e63a1559453cf2b50b0cb00de391f33') in 0.038450 seconds
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta2/bbbbb_Material1_Metallic.png
+  artifactKey: Guid(8b15a2909a11b4348a2961d8fd0c6faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta2/bbbbb_Material1_Metallic.png using Guid(8b15a2909a11b4348a2961d8fd0c6faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dced48b307d7fd014eff8ec302f85212') in 0.026338 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.596684 seconds.
-  path: Assets/Prefabs/Materiales/Satelite/Plato/satelite2_Plato_Normal.png
-  artifactKey: Guid(53768f3c6358e904997750042693abb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Materiales/Satelite/Plato/satelite2_Plato_Normal.png using Guid(53768f3c6358e904997750042693abb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da1fa0f96460e60152ca884ae8a82a7') in 0.038112 seconds
+  Time since last request: 11.034704 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta2/Materials/bbbbb_Material _0_Emissive.mat
+  artifactKey: Guid(640a278f2717faa47a31ca32170960f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta2/Materials/bbbbb_Material _0_Emissive.mat using Guid(640a278f2717faa47a31ca32170960f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd625c19999b2d003176470d9aec9acb') in 0.081362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta2/Materials/bbbbb_Material1_Normal.mat
+  artifactKey: Guid(e3634cfaf950e9740ac33d0fdf74b0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta2/Materials/bbbbb_Material1_Normal.mat using Guid(e3634cfaf950e9740ac33d0fdf74b0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aa8ffc42e4b81f2f8f460ac7ef7e242') in 0.015961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta2/Materials/bbbbb_Material _0_Normal.mat
+  artifactKey: Guid(e5ba7096c0851aa428e0223fe90b037c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta2/Materials/bbbbb_Material _0_Normal.mat using Guid(e5ba7096c0851aa428e0223fe90b037c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbea02e0d0c8f93e5709ff32afb544ec') in 0.016092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta2/Materials/bbbbb_Material1_Emissive.mat
+  artifactKey: Guid(1faaad4070daae047ba73301c086fb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta2/Materials/bbbbb_Material1_Emissive.mat using Guid(1faaad4070daae047ba73301c086fb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834616ee2c0455c673d35dcff62e1cd2') in 0.015615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 52.585535 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta3/bbbbb_Material _5_Emissive.png
+  artifactKey: Guid(89f32e57f29c1a04095af207f95a09a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta3/bbbbb_Material _5_Emissive.png using Guid(89f32e57f29c1a04095af207f95a09a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c37795374e697a9290a6381304a4121d') in 0.022784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta3/bbbbb_Material _5_Normal.png
+  artifactKey: Guid(d2246be7df8232b4392e95733dec136c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta3/bbbbb_Material _5_Normal.png using Guid(d2246be7df8232b4392e95733dec136c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397830ed2703a8f9b1eba51599304329') in 0.043262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Materiales/Materiales Planetas/planeta3/bbbbb_Material _5_Height.png
+  artifactKey: Guid(513e20733f9fdc1479bf45a43fafb3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiales/Materiales Planetas/planeta3/bbbbb_Material _5_Height.png using Guid(513e20733f9fdc1479bf45a43fafb3c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e788479d1e1e7c5e75555141d24964e') in 0.022225 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
