@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -193,14 +193,14 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3815341217304826302, guid: 81315ea689960bf4f801f9f8a9315419, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 86652700}
+      addedObject: {fileID: 86652702}
   m_SourcePrefab: {fileID: 100100000, guid: 81315ea689960bf4f801f9f8a9315419, type: 3}
 --- !u!1 &86652699 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3815341217304826302, guid: 81315ea689960bf4f801f9f8a9315419, type: 3}
   m_PrefabInstance: {fileID: 86652698}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &86652700
+--- !u!114 &86652702
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -209,10 +209,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 86652699}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca856c221d0c30a4f9b0fea8ca974d4a, type: 3}
+  m_Script: {fileID: 11500000, guid: d682f94e09155124590f5af930fe67fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 4
 --- !u!1 &111652484
 GameObject:
   m_ObjectHideFlags: 0
@@ -376,6 +376,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6682543996292603034, guid: 86083a71caef89e4ea5e11785f4bb7d7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 129119070}
+    - targetCorrespondingSourceObject: {fileID: 6682543996292603034, guid: 86083a71caef89e4ea5e11785f4bb7d7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 129119072}
   m_SourcePrefab: {fileID: 100100000, guid: 86083a71caef89e4ea5e11785f4bb7d7, type: 3}
 --- !u!1 &129119069 stripped
 GameObject:
@@ -394,7 +397,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca856c221d0c30a4f9b0fea8ca974d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 20
+--- !u!114 &129119072
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 129119069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682f94e09155124590f5af930fe67fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 15
 --- !u!1 &1629965819
 GameObject:
   m_ObjectHideFlags: 0
@@ -560,6 +576,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6682543996292603034, guid: 86083a71caef89e4ea5e11785f4bb7d7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1738515458}
+    - targetCorrespondingSourceObject: {fileID: 6682543996292603034, guid: 86083a71caef89e4ea5e11785f4bb7d7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1738515460}
   m_SourcePrefab: {fileID: 100100000, guid: 86083a71caef89e4ea5e11785f4bb7d7, type: 3}
 --- !u!1 &1738515457 stripped
 GameObject:
@@ -578,7 +597,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca856c221d0c30a4f9b0fea8ca974d4a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotationSpeed: 30
+  rotationSpeed: 10
+--- !u!114 &1738515460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1738515457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d682f94e09155124590f5af930fe67fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 15
 --- !u!1001 &5808668402984241566
 PrefabInstance:
   m_ObjectHideFlags: 0
