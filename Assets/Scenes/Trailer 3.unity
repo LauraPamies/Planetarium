@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1629965820}
-  m_IndirectSpecularColor: {r: 0.01218477, g: 0.012086246, b: 0.01218477, a: 1}
+  m_IndirectSpecularColor: {r: 0.012136721, g: 0.012027504, b: 0.012136721, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -408,6 +408,7 @@ GameObject:
   - component: {fileID: 111652486}
   - component: {fileID: 111652485}
   - component: {fileID: 111652488}
+  - component: {fileID: 111652489}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -503,6 +504,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   target: {fileID: 111652487}
   orbitSpeed: 10
+--- !u!114 &111652489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111652484}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a14b441b8e7cf204b9eb1e731445fa34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 30
 --- !u!1 &130199258 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7111125010155250626, guid: 57c53e9a1f2e3904694ac0e99d32fb98, type: 3}
@@ -6699,7 +6713,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5a8b238d7a65f3468fc776e954d9ef6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 30
 --- !u!1001 &2001917399
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7389,11 +7403,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8533739635934493718, guid: 3aa0fa316e94fac44a76409e73bd0fdd, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8533739635934493718, guid: 3aa0fa316e94fac44a76409e73bd0fdd, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8533739635934493718, guid: 3aa0fa316e94fac44a76409e73bd0fdd, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8533739635934493718, guid: 3aa0fa316e94fac44a76409e73bd0fdd, type: 3}
       propertyPath: m_LocalPosition.x
