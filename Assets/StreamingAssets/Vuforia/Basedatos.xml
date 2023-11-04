@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Pixartoy" size="0.200000 0.233257" />
+    <ImageTarget name="Joker" size="0.500000 0.713379" />
+  </Tracking>
+</QCARConfig>
